@@ -21,3 +21,5 @@ target/*
 
 #typescript
 *.ts
+*.spec.ts
+*.js
