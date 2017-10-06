@@ -17,3 +17,7 @@ target/*
 .idea
 *.iml
 *.eml
+
+
+#typescript
+*.ts
