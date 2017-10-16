@@ -12,7 +12,10 @@
     <logger name="com.palantir.stash.disapprove" level="OFF"/>
 
 	<!--  change this to DEBUG to change dependencies output level -->
-    <root level="OFF">
+    <root level="On">
         <appender-ref ref="test-logger" />
+		<appender-ref ref="logger-approval" />
+		<appender-ref ref="logger-disapproval" />
+		<appender-ref ref="logger-noForce" />
     </root>
 </configuration>
